@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 78, 126);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(54, 128, 205);
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    padding: 50px;
+}
+
+/* ---------- MOVIES ---------- */
+
+.movie-list{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.movie {
+    background: rgb(235, 242, 250);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: top;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+img{
+    width:150px;
+    height:200px;
+    margin-top: 5px;
+}
+
+.movies-details {
+    margin-left: 30px;
+}
+
+.movies-details h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.movies-details h4 {
+    display: inline;
+    font-weight: 500;
+}
+
+.movies-details p {
+    display: inline;
+}
+
+.movies-details pre {
+    display: inline;
+}
+
+.br {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* --------- FOOTER --------- */
+footer {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: auto;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(54, 128, 205);
+    color: white;
+}
